@@ -1,0 +1,225 @@
+Package: dwarf-fortress
+Version: 0.34.11.0-5
+Architecture: i386
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 132
+Depends: dwarf-fortress-data (= 0.34.11.0-5), dwarf-fortress-bin, dwarf-fortress-mod-default
+Multi-Arch: same
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress/dwarf-fortress_0.34.11.0-5_i386.deb
+Size: 19862
+SHA256: 2f08746d0eb8455d80ec3d7278851eae0d7d3737046c5140d5c93732b04ff8d8
+SHA1: da1afb44ce1faaf22ccf90aca3c4adadf2d76c65
+MD5sum: 442ef4cef2e61e17d7fbdce98a7bbe0e
+Description: Dwarf Fortress game - http://www.bay12games.com/dwarves
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ Although Dwarf Fortress is still in a work in progress, many features have
+ already been implemented.
+ .
+  * The world is randomly generated with distinct civilizations spanning over
+    1000 years of detailed history, dozens of towns, hundreds of caves and
+    regions with various wildlife.
+  * The world persists as long as you like, over many games, recording
+    historical events and tracking changes.
+  * Command your dwarves as they search for wealth in the mountain.
+    - Craft treasures and furniture from many materials and improve these
+      objects with precious metals, jewels and more.
+    - Defend yourself against attacks from hostile civilizations, the wilderness
+      and the depths.
+    - Support the nobility as they make demands of your populace.
+    - Keep your dwarves happy and read their thoughts as they work and relax.
+    - Z coordinate allows you to dig out fortresses with multiple levels. Build
+      towers or conquer the underworld.
+    - Build floodgates to divert water for farming or to drown your
+      adversaries... and don't forget the magma!
+    - Surgery, sutures, splints, crutches and more: care for your wounded
+      dwarves instead of leaving them to fend for themselves.
+    - Much more...
+  * Play an adventurer and explore, quest for glory or seek vengeance.
+    - Meet adversaries from previous games.
+    - Recruit people in towns to come with you on your journey.
+    - Explore without cumbersome plot restrictions.
+    - Seamlessly wander the world -- up to 197376 x 197376 squares total -- or
+      travel more rapidly on the region map.
+    - Travel by day and search for a place to shelter as night falls.
+    - Accept quests from the town and civilization leaders.
+    - Retire and meet your old characters. Bring them along on an adventure with
+      a new character or reactivate them and play directly.
+    - Z coordinate allows you to move between twisting underground caverns and
+      scale structures, fighting adversaries above and below.
+    - Earn a reputation as a hero with the various civilizations in the world.
+  * The combat model uses skills, body parts, individual tissues, material
+    properties, aimed attacks, wrestling, one-time opportunities, charging and
+    dodging between squares, bleeding, pain, nausea, various poison effects and
+    much more.
+  * A dynamic weather model tracks wind, humidity and air masses to create
+    fronts, clouds, rain storms and blizzards.
+  * Over two hundred rock and mineral types are incorporated into the world,
+    placed in their proper geological environments.
+  * Add new creatures, weapons, plants, metals and other objects via modifiable
+    text files.
+  * Extended ASCII character set rendered in 16 colors (including black) as well
+    as 8 background colors (including black).
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-bin
+Source: dwarf-fortress
+Version: 0.34.11.0-5
+Architecture: i386
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 14783
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.4.0), libdwarf-fortress-graphics0
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress/dwarf-fortress-bin_0.34.11.0-5_i386.deb
+Size: 5813590
+SHA256: 5ec013fd3eaf8fc5c81ac704064ae510e4bf266a9b86cb80aef24ad13f6d4b8c
+SHA1: c2b45b31367a79752ac5d2dd41c2ac4218cf7e66
+MD5sum: d3d78018c72378dc240402a4bfcb5587
+Description: Dwarf Fortress binaries
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ This package contains the binaries of Dwarf Fortress.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-data
+Source: dwarf-fortress
+Version: 0.34.11.0-5
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 4269
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress/dwarf-fortress-data_0.34.11.0-5_all.deb
+Size: 3268098
+SHA256: 8361173dd02a685eaaf01c5afaf065d7c87385b5245a0115e70537df9f5162b7
+SHA1: 907917b71f1dbd86adc6391914814ec60def965c
+MD5sum: 793e3b15ac5f6e702dac9692541e3a4a
+Description: Dwarf Fortress data files
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ This package contains data files used by Dwarf Fortress.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-mod-default
+Version: 0.34.11.0-3
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 2636
+Depends: dwarf-fortress-data (>= 0.34.11.0)
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress-mod-default/dwarf-fortress-mod-default_0.34.11.0-3_all.deb
+Size: 336460
+SHA256: 35c83f0746861055c22a43f9e3cf318aa824653504b7146be03fc2fe3d7a1a66
+SHA1: d3e82221115fb6975c6db21a4e7a1792f6db4692
+MD5sum: 9e906918e9ab495074ecfbb069a969bf
+Description: Dwarf Fortress default graphic mod
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-mod-ironhand
+Version: 0.34.11.0-3
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 3348
+Depends: dwarf-fortress-data (>= 0.34.11.0)
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress-mod-ironhand/dwarf-fortress-mod-ironhand_0.34.11.0-3_all.deb
+Size: 1022562
+SHA256: fb6521d291efb03340b52f42a066185abf35dc27c9bc830235b87fe5c0bfe8ec
+SHA1: 95a37747075d51d6a6649e09b3192e6d694391a4
+MD5sum: f0cabbc9ee7349e59c34fa17db290cbf
+Description: Dwarf Fortress IronHand graphic mod
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-mod-mayday
+Version: 0.34.11.0-3
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 3133
+Depends: dwarf-fortress-data (>= 0.34.11.0)
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress-mod-mayday/dwarf-fortress-mod-mayday_0.34.11.0-3_all.deb
+Size: 710492
+SHA256: 4ae6829d48916a7ee0eef73292cc46c3be106e9c107eedbcd6c62dbc78d120be
+SHA1: e1986bf0c73608c3d928d437571097a31971e7a8
+MD5sum: 4faa8c6cf3cb0dc7b90b05dfcd7c2470
+Description: Dwarf Fortress Mayday graphic mod
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-mod-phoebus
+Version: 0.34.11.0-3
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 3173
+Depends: dwarf-fortress-data (>= 0.34.11.0)
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress-mod-phoebus/dwarf-fortress-mod-phoebus_0.34.11.0-3_all.deb
+Size: 758982
+SHA256: b288599fb77dd7d91bb20eb0e6e3466a0760d7d1732713593fde2d4ba5ec7a4a
+SHA1: 838c67badad637d87f72e016ff3caa049b97c474
+MD5sum: 040140d5c16fcc06b80aabe965f1bd69
+Description: Dwarf Fortress Phoebus graphic mod
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: libdwarf-fortress-graphics0
+Source: dwarf-fortress
+Version: 0.34.11.0-5
+Architecture: i386
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 1902
+Pre-Depends: multiarch-support
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.1.3), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglew1.7 (>= 1.7.0), libglib2.0-0 (>= 2.12.0), libglu1-mesa | libglu1, libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.0), libsdl-image1.2 (>= 1.2.10), libsdl-ttf2.0-0, libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress/libdwarf-fortress-graphics0_0.34.11.0-5_i386.deb
+Size: 565772
+SHA256: 56caed29b0fcc632f1fb539b1891dc8ee01e679bfedd45f31b317f76d7f51be9
+SHA1: 72525f6248f607b336b8950d6fa9cf872b856b36
+MD5sum: dcd4c877f8c59e720b37daa8772f5e5e
+Description: Dwarf Fortress binaries
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ This package contains the opened graphics library of Dwarf Fortress.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+

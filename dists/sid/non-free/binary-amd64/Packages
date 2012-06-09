@@ -1,0 +1,107 @@
+Package: dwarf-fortress-data
+Source: dwarf-fortress
+Version: 0.34.11.0-5
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 4269
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress/dwarf-fortress-data_0.34.11.0-5_all.deb
+Size: 3268098
+SHA256: 8361173dd02a685eaaf01c5afaf065d7c87385b5245a0115e70537df9f5162b7
+SHA1: 907917b71f1dbd86adc6391914814ec60def965c
+MD5sum: 793e3b15ac5f6e702dac9692541e3a4a
+Description: Dwarf Fortress data files
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ This package contains data files used by Dwarf Fortress.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-mod-default
+Version: 0.34.11.0-3
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 2636
+Depends: dwarf-fortress-data (>= 0.34.11.0)
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress-mod-default/dwarf-fortress-mod-default_0.34.11.0-3_all.deb
+Size: 336460
+SHA256: 35c83f0746861055c22a43f9e3cf318aa824653504b7146be03fc2fe3d7a1a66
+SHA1: d3e82221115fb6975c6db21a4e7a1792f6db4692
+MD5sum: 9e906918e9ab495074ecfbb069a969bf
+Description: Dwarf Fortress default graphic mod
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-mod-ironhand
+Version: 0.34.11.0-3
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 3348
+Depends: dwarf-fortress-data (>= 0.34.11.0)
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress-mod-ironhand/dwarf-fortress-mod-ironhand_0.34.11.0-3_all.deb
+Size: 1022562
+SHA256: fb6521d291efb03340b52f42a066185abf35dc27c9bc830235b87fe5c0bfe8ec
+SHA1: 95a37747075d51d6a6649e09b3192e6d694391a4
+MD5sum: f0cabbc9ee7349e59c34fa17db290cbf
+Description: Dwarf Fortress IronHand graphic mod
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-mod-mayday
+Version: 0.34.11.0-3
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 3133
+Depends: dwarf-fortress-data (>= 0.34.11.0)
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress-mod-mayday/dwarf-fortress-mod-mayday_0.34.11.0-3_all.deb
+Size: 710492
+SHA256: 4ae6829d48916a7ee0eef73292cc46c3be106e9c107eedbcd6c62dbc78d120be
+SHA1: e1986bf0c73608c3d928d437571097a31971e7a8
+MD5sum: 4faa8c6cf3cb0dc7b90b05dfcd7c2470
+Description: Dwarf Fortress Mayday graphic mod
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+
+Package: dwarf-fortress-mod-phoebus
+Version: 0.34.11.0-3
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 3173
+Depends: dwarf-fortress-data (>= 0.34.11.0)
+Multi-Arch: foreign
+Homepage: http://www.bay12games.com/dwarves/
+Priority: extra
+Section: non-free/games
+Filename: pool/non-free/d/dwarf-fortress-mod-phoebus/dwarf-fortress-mod-phoebus_0.34.11.0-3_all.deb
+Size: 758982
+SHA256: b288599fb77dd7d91bb20eb0e6e3466a0760d7d1732713593fde2d4ba5ec7a4a
+SHA1: 838c67badad637d87f72e016ff3caa049b97c474
+MD5sum: 040140d5c16fcc06b80aabe965f1bd69
+Description: Dwarf Fortress Phoebus graphic mod
+ Dwarf Fortress is a single-player fantasy game. You can control a dwarven
+ outpost or an adventurer in a randomly generated, persistent world.
+ .
+ Copyright: 2002-2012 Tarn Adams toadyone@bay12games.com
+

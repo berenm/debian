@@ -1,0 +1,8 @@
+Origin: Beren Minor's Debian packages
+Label: Beren Minor's Debian packages
+Codename: sid
+Suite: unstable
+Architectures: source i386 amd64
+Components: main contrib non-free
+SignWith: Beren Minor
+Tracking: minimal

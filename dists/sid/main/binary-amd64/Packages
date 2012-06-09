@@ -1,0 +1,392 @@
+Package: gemrb
+Version: 0.8.0-1
+Architecture: amd64
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 125
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libgemrb (= 0.8.0-1), libstdc++6 (>= 4.1.1), python-support (>= 0.90), gemrb-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb_0.8.0-1_amd64.deb
+Size: 32814
+SHA256: 994772a3494d9b44974bf3b8608e4900641607c911fc9002a20261a502df4bd1
+SHA1: 42c56362aca57aee86fc2da268e4969154a0a81b
+MD5sum: 69fb28fea6c67980075f096118023b60
+Description: Open-source engine to run Baldur's Gate, Icewind Dale and Planescape: Torment
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ It means that you either need some of the original game's data
+ somewhere on your harddisk, or you can try to use the data from the
+ Dragonlance Total Conversion project.
+ .
+ The original game data has to be installed on a windows
+ partition and mounted to your Linux/Unix filesystem, installed on
+ windows and then copied to your filesystem, installed with WINE or
+ extracted manually from the CDs using the tool `unshield'.
+ .
+ Supported games: Baldur's Gate and Icewind Dale series, Planescape:Torment.
+
+Package: gemrb-baldurs-gate
+Source: gemrb
+Version: 0.8.0-1
+Architecture: amd64
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 847
+Depends: gemrb (= 0.8.0-1), gemrb-baldurs-gate-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-baldurs-gate_0.8.0-1_amd64.deb
+Size: 509902
+SHA256: def7b532b1daf68b08335f91ae9841c5fefcbbd30ec0f44568686215dbad6654
+SHA1: 8db731e393d8e275bbed6b3099e77651bafdf370
+MD5sum: 9db08e213ee4caade13537143f106ce7
+Description: GemRB binary and configuration for Baldur's Gate game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Baldur's Gate game.
+
+Package: gemrb-baldurs-gate-2
+Source: gemrb
+Version: 0.8.0-1
+Architecture: amd64
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 407
+Depends: gemrb (= 0.8.0-1), gemrb-baldurs-gate-2-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-baldurs-gate-2_0.8.0-1_amd64.deb
+Size: 257748
+SHA256: 6170815798791d190f8401e67edbc5fe90c6a8a8eccf7b73c81027a7e510691a
+SHA1: 56e4d656ccbd73d46335f0c10dc062f207ca3362
+MD5sum: d7d55080c8f26057d0ddda61dc45a4f5
+Description: GemRB binary and configuration for Baldur's Gate 2 game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Baldur's Gate 2 game.
+
+Package: gemrb-baldurs-gate-2-data
+Source: gemrb
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 258
+Depends: gemrb-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-baldurs-gate-2-data_0.8.0-1_all.deb
+Size: 48260
+SHA256: 022971ea3c82f34717c2e2f1d07436ba76c66496b2e7246bc778458291c74d77
+SHA1: 85571e6306f61381d30993b064ce7d1c4d333324
+MD5sum: 7d25589d4479df54256b910b36832a34
+Description: GemRB data files for Baldur's Gate 2 game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Baldur's Gate 2 game.
+
+Package: gemrb-baldurs-gate-data
+Source: gemrb
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 193
+Depends: gemrb-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-baldurs-gate-data_0.8.0-1_all.deb
+Size: 33646
+SHA256: 4184f2b14e775245987c6d7ee5d87ead4fc41f32e5a2d3353d36dbad6832f94e
+SHA1: 3d2234b1102a69386f11771cf009f299fa040e7c
+MD5sum: 2fc6d63fc80cd8df7d5542055dae6cba
+Description: GemRB data files for Baldur's Gate game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Baldur's Gate game.
+
+Package: gemrb-data
+Source: gemrb
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 537
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-data_0.8.0-1_all.deb
+Size: 124968
+SHA256: 8133c8591b3b6fadee404fe7efb6c2c44311c6bc0626e6b5eadb2e39bee1b794
+SHA1: bd6e3bf8ceb05dd77cb8598555574754b408db8e
+MD5sum: a5654e16c1697b5eeafb0429eb65fba8
+Description: Common data files for GemRB
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files used across all supported games.
+
+Package: gemrb-doc
+Source: gemrb
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 294
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: doc
+Filename: pool/main/g/gemrb/gemrb-doc_0.8.0-1_all.deb
+Size: 113132
+SHA256: b63e9161b3eadb2ef3c9204c4825e7ef1265fcdf9cde905fdcb93f383c464f88
+SHA1: dc861b9a05deeb1afc07c56d90ffe5eb4886e17a
+MD5sum: 054cc9e0046005e3dd81e10e5a7bc218
+Description: Documentation for GemRB
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains documentation about GemRB and how to write custom games.
+
+Package: gemrb-icewind-dale
+Source: gemrb
+Version: 0.8.0-1
+Architecture: amd64
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 575
+Depends: gemrb (= 0.8.0-1), gemrb-icewind-dale-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-icewind-dale_0.8.0-1_amd64.deb
+Size: 389086
+SHA256: 8ca49cbfbd869aa25fe4e8b253a4ae6fa389412ffccd53a6f6c436c2fce2c898
+SHA1: 7c34117b2f9dd62bedecd6e74700564a230e983d
+MD5sum: 2aeb29e82557ff3b909793e6497db913
+Description: GemRB binary and configuration for Icewind Dale game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Icewind Dale game.
+
+Package: gemrb-icewind-dale-2
+Source: gemrb
+Version: 0.8.0-1
+Architecture: amd64
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 334
+Depends: gemrb (= 0.8.0-1), gemrb-icewind-dale-2-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-icewind-dale-2_0.8.0-1_amd64.deb
+Size: 203616
+SHA256: cb114f0402aff3272ebd579d8ca8625cc62924ab150da44f22096b725d833d89
+SHA1: 0a80bb1515fa11d7845006751fe7ae0ddc5fb69b
+MD5sum: 0fdcec87f9d4d1aad4bd494f7865f8ee
+Description: GemRB binary and configuration for Icewind Dale 2 game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Icewind Dale 2 game.
+
+Package: gemrb-icewind-dale-2-data
+Source: gemrb
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 261
+Depends: gemrb-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-icewind-dale-2-data_0.8.0-1_all.deb
+Size: 50792
+SHA256: 4ebf935a5b21f8e24abdb75e1df43eee9bc7d3944bda67b31666ccc142359179
+SHA1: 11c959121d73c0c972ff67599b7886b7f2ea67c4
+MD5sum: 276eac0a069961ee4885272efd1a4791
+Description: GemRB data files for Icewind Dale 2 game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Icewind Dale 2 game.
+
+Package: gemrb-icewind-dale-data
+Source: gemrb
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 208
+Depends: gemrb-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-icewind-dale-data_0.8.0-1_all.deb
+Size: 32726
+SHA256: 1cb48a680eb8ae37ee3fdeea5bc679471b7e509dfbe6c8cb9355333f03d1312c
+SHA1: 2c1c4ff2f4cb43810fed918585300a4cafa61b3b
+MD5sum: 9dd702c70f4d59c0adca88a1d45e9a8c
+Description: GemRB data files for Icewind Dale game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Icewind Dale game.
+
+Package: gemrb-planescape-torment
+Source: gemrb
+Version: 0.8.0-1
+Architecture: amd64
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 304
+Depends: gemrb (= 0.8.0-1), gemrb-planescape-torment-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-planescape-torment_0.8.0-1_amd64.deb
+Size: 147500
+SHA256: 9253ae4514522932d1642379034a0165012dfea950b5dab8746769b7610a23ec
+SHA1: 5d8042530604c27c5ee5899c7f021ee060b281e8
+MD5sum: 0bcc27f36a01aec8c87fcd26487448c8
+Description: GemRB binary and configuration for Planescape: Torment game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Planescape: Torment
+ game.
+
+Package: gemrb-planescape-torment-data
+Source: gemrb
+Version: 0.8.0-1
+Architecture: all
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 280
+Depends: gemrb-data (= 0.8.0-1)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/gemrb-planescape-torment-data_0.8.0-1_all.deb
+Size: 52752
+SHA256: d8dfbb21c7f897976ca211b40ad800b3e34626341a6944ee3fc4ea0b7b9ef568
+SHA1: e88039a00f03e1af649b31c21951b832313b599b
+MD5sum: 4b6f0f8765cbe960087e01593850c666
+Description: GemRB data files for Planescape: Torment game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Planescape: Torment game.
+
+Package: libgemrb
+Source: gemrb
+Version: 0.8.0-1
+Architecture: amd64
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 3260
+Depends: libc6 (>= 2.14), libfreetype6 (>= 2.4.2), libgcc1 (>= 1:4.1.1), libopenal1, libpng12-0 (>= 1.2.13-4), libpython2.7 (>= 2.7), libsdl-mixer1.2, libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.6), libvorbisfile3 (>= 1.1.2), zlib1g (>= 1:1.1.4)
+Homepage: http://www.gemrb.org/
+Priority: extra
+Section: games
+Filename: pool/main/g/gemrb/libgemrb_0.8.0-1_amd64.deb
+Size: 1205440
+SHA256: 8e3a476de958d1bde69a1a193abc13e8b9f9586bef0719b96065b1e2b36cba02
+SHA1: 11633168cc07be3a6087a324186e617719bda3ab
+MD5sum: a27ee73e415c37cae3068eee69cc6e24
+Description: Shared libraries and plugins for GemRB
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains GemRB core shared libraries and plugins.
+
+Package: libtenum-dev
+Source: libtenum
+Version: 0.9.4-1
+Architecture: amd64
+Maintainer: Beren Minor <beren.minor+debian@gmail.com>
+Installed-Size: 86
+Depends: libboost-all-dev
+Homepage: http://berenm.github.com/libtenum
+Priority: extra
+Section: libdevel
+Filename: pool/main/libt/libtenum/libtenum-dev_0.9.4-1_amd64.deb
+Size: 9626
+SHA256: 3ab6ed4ee8521480c5a7d16f9e2a610b1990b397627f599fcebdda22aa73dad0
+SHA1: e967cf061360d92141c451b0740130672151c453
+MD5sum: e838dc31879bc688a09d194adc5a825e
+Description: C++ metaprogramming library to make enums a little bit nicer
+ WHAT'S INSIDE?
+ .
+   - Enums now come in three different flavors: static, dynamic and bit fields!
+   - Enum values are now scoped out of namespace scope. Times of enum values
+     conflict are gone.
+   - Nice and customizable (de)serialization for enum to string equivalents.
+   - Including dynamic enum values with offset and bit fields arbitrary
+     composition!
+   - Fresh and light as a native enum, no overhead over enum constants.
+   - Limited overhead for serialization support.
+   - Integer operations as easy and simple as ever.
+ .
+ CONCEPTS
+ .
+ This library introduces three new variation over the enum concept. The main
+ difference between them is the way these enums are (de)serialized and the
+ available enum / enum and enum / integer operators when this is meaningful
+ (only when using C++0x).
+ .
+ Static enums only allow explicitly defined constants (with specified or
+ implicit integer values), any other value will result in a (de)serialization
+ to special value "unknown".
+ Dynamic enums allow explicitly defined constants and offsets from these
+ constants, within a given global range (from the first constant to the
+ specified upper integer limit).
+ .
+ Every value whithin the range will be serializable, any other will result in
+ "unknown". An integer value between two enum constants will be (de)serialized
+ as the nearest lower enum constant plus an offset.
+ .
+ For example, if the enum is defined as { value1 = 1, value2 = 5..., unknown
+ = 10 }, the available range would be from 1 to 9, and the integer 4 will be
+ serialized as "value1#3" which means (value1 + 3).
+ .
+ Bit fields only allow combination of explicitly defined constants.
+ .
+ These will be (de)serialized as a combination of every defined enum constants,
+ any other value will be (de)serialized as "unknown". This flavor restricts
+ constants values to bitwise distinct integers, and to values different from 0
+ in order to be able to decompose the enum into the specified enum constants.
+ 0 being the special "unknown" value for this flavor.
+ .
+ For example, for an enum defined as { bit1 = 0b001, bit2 = 0b010, bit3 =
+ 0b100... }, an instance of this enum with an integer value of 3 will be
+ serialized as "bit1+bit2", and "bit1+bit3" will be deserialized as an enum
+ instance of integer value 5.
+
